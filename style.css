@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background-image: linear-gradient(to right, #1E3A8A, #0E7490);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .form-control:focus {
+    border-color: #0E7490;
+    box-shadow: 0 0 0 0.2rem rgba(14, 116, 144, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #1E3A8A;
+    border-color: #1E3A8A;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0E7490;
+    border-color: #0E7490;
+  }
+  
+  .btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #1E3A8A;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
